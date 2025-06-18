@@ -5,7 +5,7 @@ import ChiesiLogin from "../src/components/auth/ChiesiLogin";
 import Dashboard from "./pages/Dashboard";
 import Courses from "./pages/Courses";
 import Users from "./components/dashboard/Users";
-import CompanyProfile from "./components/dashboard/companyProfile";
+import CompanyProfile from "./components/dashboard/CompanyProfile";
 import ChiesiDashboard from "./components/dashboard/ChiesiDashboard";
 import PublicDashboard from "./components/dashboard/PublicDashboard";
 import TeamsPakistan from "./components/dashboard/TeamPakistan";
