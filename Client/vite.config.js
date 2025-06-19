@@ -7,15 +7,12 @@
 //   plugins: [react(), tailwindcss(),],
 //   darkMode: "class",
 // })
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: './', // <-- Add this line
+  base: './',
   build: {
     outDir: 'dist',
++   copyPublicDir: true // Explicitly enable public dir copying
   },
   publicDir: 'public',
 })
