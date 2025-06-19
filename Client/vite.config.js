@@ -13,9 +13,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: './', // <-- Add this line
   build: {
     outDir: 'dist',
   },
-  publicDir: 'public', // <---- This ensures Vite copies public files like _redirects
-  darkMode: "class",
+  publicDir: 'public',
 })
